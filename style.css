@@ -13,7 +13,9 @@ body {
 .max-width-wrapper {
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+
+    max-width: 650px;
+    min-width: 310px;
     margin-top: 48px;
 }
 
@@ -31,16 +33,11 @@ html {
 }
 
 main {
-    background-color: inherit;
+    background-color: hsl(0deg, 0%, 40%);
 }
 
 main section {
     background-color: hsl(0deg, 0%, 90%);
-}
-
-.max-width-wrapper {
-    max-width: 650px;
-    min-width: 310px;
 }
 
 strong {
